@@ -71,7 +71,7 @@ if __name__ == '__main__':
 
     # N回のIterationを実施
     for iter_num in range(N):
-        print("iter_num %d" % iter_num)
+        print "iter_num %d" % iter_num
 
         # E phase
         resp = DataFrame()
